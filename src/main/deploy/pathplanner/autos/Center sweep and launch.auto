@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.5287564992904663,
+      "y": 7.421595573425293
+    },
+    "rotation": -1.687211470683732e-25
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Sweep transport"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Sweep and launch last.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Prep sweep launch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Sweep and launch last.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Launch"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Seven Rivers autos",
+  "choreoAuto": true
+}

@@ -1,0 +1,49 @@
+Driver:
+    Left trigger: Reduce speed by 4x (just on/off)
+    Right trigger:
+      Auto align to lob shot (until rotation stick is next moved)
+      Automatically configure launcher angle and speed based on current position (runs continuously while held)
+    Left bumper: Use robot-centric driving
+    Right bumper:
+      Auto align to alliance speaker (until rotation stick is next moved)
+      Automatically configure launcher angle and speed based on current position (runs continuously while held)
+
+    Left joystick X: Swerve Strafe
+    Left joystick Y: Swerve Velocity
+    Right joystick X: Swerve Rotate
+    Right joystick Y: 
+
+    D-pad up: Snap forward (until rotation stick is next moved)
+    D-pad down: Snap backward (until rotation stick is next moved)
+    D-pad left: Snap left (until rotation stick is next moved)
+    D-pad right: Snap right (until rotation stick is next moved)
+
+    Start: Change current field-relative orientaton to match direction
+    Back: Reset all swerve modules to absolute angle (if something is messed up mechanically)
+
+    Y: Pathfind to alliance speaker and launch note
+    B: Pathfind to alliance amp and launch note
+    A: Reset odometry to in front of current alliance speaker
+    X: Stop with X (sets the modules into an X rotation until next drive command)
+
+Operator:
+    Left trigger: Lob shot
+    Right trigger: Launch note
+    
+    Left bumper: Left climber down (or up if X is held) (Also stops "Climber arms fully up")
+    Right bumper: Right climber down (or up if X is held) (Also stops "Climber arms fully up")
+
+    Left joystick vertical: Override intake and transport speed
+
+    D-pad up: Podium preset
+    D-pad down: Slow preset
+    D-pad left: Amp preset
+    D-pad right: Close speaker preset
+
+    Start: Retrieve note from launcher (runs launchers at 100% power backward; can be dangerous)
+    Back: Store current module offsets, keeping a running average while held (ONLY IN TEST MODE)
+
+    Y: Climber arms fully up (click)
+    B: Activate intake
+    A: Deactivate intake
+    X: Reverse climber controls (on bumpers)

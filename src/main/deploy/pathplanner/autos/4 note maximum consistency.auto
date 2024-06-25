@@ -1,0 +1,73 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3178505897521973,
+      "y": 5.534448146820068
+    },
+    "rotation": 7.453472790360548e-28
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Prep 5 note"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "5 note maximum consistency.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake/Launch"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "5 note maximum consistency.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake/Launch"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "5 note maximum consistency.3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Launch"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Seven Rivers autos",
+  "choreoAuto": true
+}

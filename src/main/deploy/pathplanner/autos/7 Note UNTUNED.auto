@@ -1,0 +1,91 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.2036151885986328,
+      "y": 4.848307132720947
+    },
+    "rotation": -23.080610817936083
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 3-4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 5"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 6"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.5"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "7 note UNTUNED.6"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "7 note 7"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Seven Rivers autos",
+  "choreoAuto": true
+}

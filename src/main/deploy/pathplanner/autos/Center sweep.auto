@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.5287564992904663,
+      "y": 7.421595573425293
+    },
+    "rotation": 1.7474564919669598e-22
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Sweep transport"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Center sweep"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Seven Rivers autos",
+  "choreoAuto": true
+}

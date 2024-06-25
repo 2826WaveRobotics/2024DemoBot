@@ -1,0 +1,79 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.2423866987228394,
+      "y": 5.53104829788208
+    },
+    "rotation": 2.0105109250584675e-25
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Start launcher automation"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.65
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake/Launch"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note 3 close.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake/Launch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note 3 close.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake/Launch"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note 3 close.3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Launch"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Seven Rivers autos",
+  "choreoAuto": true
+}
